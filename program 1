@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+    int a,b,sum,multi,sup,div,rem;
+    printf("enter the value of a,b");
+    scanf("%d%d",&a,&b);
+
+sum=a+b;
+sup=a-b;
+div=a/b;
+rem=a%b;
+printf("%d\n",sum);
+printf("%d\n" ,multi);
+printf("%d\n",sup);
+printf("%d\n",div);
+printf("%d\n",rem);
+return 0;
+}
